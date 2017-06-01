@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+REQUIREMENTS
+
+Web Host that supports PHP (See below for free one)
+Webkit Supported Browser to test (Firefox, Chrome, Opera)
+Text editor (You can just use notepad but it's much easier to use notepad++ or other editors)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+CONFIGURATION
+
+1. Edit config.php to your liking, make sure you include your Steam API key, server IP and server port or the functionality will not work.
+
+2. Place the backgrounds you want in the backgrounds folder, the loading screen will automatically add them. You can remove the default ones or use them instead of your own.
+
+3. Place any music files that you wish to play in the music folder, these must be in OGG format. The loading screen will automatically add them. You can remove the default ones or use them instead of your own.
+
+4. Find a web host you like and upload the loading screen to your hosting, if you need help doing this please contact your web host's support rather than me. Below are some free web hosts.
+
+5. Check to see all is good by heading to the URL you stored the loading screen at. Don't worry if the gamemode doesn't show up, the loading screen can only grab this information when loading in to the server.
+
+6. Set your sv_loadingurl to wherever you uploaded the loading screen along with '?steamid=%s'. It should look like this in your server.cfg:
+sv_loadingurl "http://domain.com/loadingscreen/includes/php/mode1.php?steamid=%s" (Replace mode1.php in the loadingurl to whatever mode you want from mode1.php to mode5.php)
+
+7. Load in to your server with a sexy new loading screen, enjoy!
+
+8. Don't forget to leave a review if you like it!
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+USEFUL LINKS
+
+http://hostinger.com/ (Free Web Host - Recommended)
+http://www.onlinevideoconverter.com/mp3-converter (Convert YouTube videos to OGG)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
